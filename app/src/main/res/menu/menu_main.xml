@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.igor.mygradetracker.MainActivity">
+    <item
+        android:id="@+id/max_records"
+        android:orderInCategory="100"
+        android:title="@string/max_records"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/page_next"
+        android:orderInCategory="100"
+        android:title="@string/next_page"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/page_prev"
+        android:orderInCategory="100"
+        android:title="@string/prev_page"
+        app:showAsAction="never" />
+</menu>
